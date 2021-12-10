@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/fondo.jpg);
+    background-repeat: repeat;
+    background-size: 1550px;
+}
+
+.tronco{
+    height: 200px;
+}
+.posiciontronco{
+    position: absolute;
+    top: 550px;
+    left: 280px;
+    width: 200px;
+    height: 100px;
+    z-index: 1;
+}
+
+.olentzero{
+    height: 200px;
+}
+.posicionolentzero{
+    position: absolute;
+    top: 500px;
+    left: 5px;
+    width: 200px;
+    height: 100px;
+    z-index: 2;
+}
+
+.arbolnav{
+    height: 600px;
+}
+
+.posicionarbol{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
