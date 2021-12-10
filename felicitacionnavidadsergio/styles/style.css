@@ -4,6 +4,36 @@ body{
     background-size: 1550px;
 }
 
+/* OLENTZERO */
+.olentzero{
+    height: 200px;
+}
+.posicionolentzero{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    width: 200px;
+    height: 100px;
+    transform: rotateY(180deg);
+    z-index: 3;
+    animation-name: olentzero_mov;
+    animation-duration: 25s;
+    animation-iteration-count: 3s;
+}
+
+/* ANIMACION OLENTZERO */
+@keyframes olentzero_mov {
+    0% {
+        left: 1000px;
+        top: 500px;
+    }
+    100% {
+        left: 400px;
+        top: 500px;
+    }
+}
+
+/* TRONCO DEL ARBOL */
 .tronco{
     height: 200px;
 }
@@ -16,18 +46,8 @@ body{
     z-index: 1;
 }
 
-.olentzero{
-    height: 200px;
-}
-.posicionolentzero{
-    position: absolute;
-    top: 500px;
-    left: 5px;
-    width: 200px;
-    height: 100px;
-    z-index: 2;
-}
 
+/* ARBOL DE NAVIDAD */
 .arbolnav{
     height: 600px;
 }
@@ -36,17 +56,516 @@ body{
     position: absolute;
     top: 100px;
     left: 100px;
-    z-index: 3;
+    z-index: 2;
 }
 
 
+/* COPOS DE NIEVE */
+.c1 {
+    width: 50px;
+    position: absolute;
+    top: -100px;
+    transform: rotate(0deg);
+    animation-name: caida;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida {
+    0% {
+        top: -100px;
+        left: 3%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 99%;
+        left: 3%;
+        transform: rotate(360deg);
+    }
+}
+
+.c2 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida2;
+    animation-duration: 9s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida2 {
+    0% {
+        top: -100px;
+        left: 7%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 7%;
+        transform: rotate(360deg);
+    }
+}
+
+.c3 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida3;
+    animation-duration: 7s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida3 {
+    0% {
+        top: -100px;
+        left: 12%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 12%;
+        transform: rotate(-360deg);
+    }
+}
+
+.c4 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida4;
+    animation-duration: 10s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida4 {
+    0% {
+        top: -100px;
+        left: 17%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 17%;
+        transform: rotate(360deg);
+    }
+}
+
+.c5 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida5;
+    animation-duration: 9s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida5 {
+    0% {
+        top: -100px;
+        left: 25%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 25%;
+        transform: rotate(180deg);
+    }
+}
+
+.c6 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida6;
+    animation-duration: 8s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida6 {
+    0% {
+        top: -100px;
+        left: 32%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 32%;
+        transform: rotate(280deg);
+    }
+}
+
+.c7 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida7;
+    animation-duration: 7s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida7 {
+    0% {
+        top: -100px;
+        left: 37%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 37%;
+        transform: rotate(-180deg);
+    }
+}
+
+.c8 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    top: -100px;
+    left: 90%;
+    transform: rotate(0deg);
+    animation-name: caida8;
+    animation-duration: 9.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida8 {
+    0% {
+        top: -100px;
+        left: 43%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 43%;
+        transform: rotate(180deg);
+    }
+}
+
+.c9 {
+    width: 50px;
+    position: absolute;
+    top: -100px;
+    transform: rotate(0deg);
+    animation-name: caida9;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida9 {
+    0% {
+        top: -100px;
+        left: 47%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 99%;
+        left: 47%;
+        transform: rotate(360deg);
+    }
+}
+
+.c10 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida10;
+    animation-duration: 9s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida10 {
+    0% {
+        top: -100px;
+        left: 53%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 53%;
+        transform: rotate(360deg);
+    }
+}
+
+.c11 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida11;
+    animation-duration: 7s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida11 {
+    0% {
+        top: -100px;
+        left: 59%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 59%;
+        transform: rotate(-360deg);
+    }
+}
+
+.c12 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida12;
+    animation-duration: 10s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida12 {
+    0% {
+        top: -100px;
+        left: 65%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 65%;
+        transform: rotate(360deg);
+    }
+}
+
+.c13 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida13;
+    animation-duration: 9s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida13 {
+    0% {
+        top: -100px;
+        left: 73%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 73%;
+        transform: rotate(180deg);
+    }
+}
+
+.c14 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida14;
+    animation-duration: 8s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida14 {
+    0% {
+        top: -100px;
+        left: 80%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 80%;
+        transform: rotate(280deg);
+    }
+}
+
+.c15 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: caida15;
+    animation-duration: 7s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida15 {
+    0% {
+        top: -100px;
+        left: 85%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 85%;
+        transform: rotate(-180deg);
+    }
+}
+
+.c16 {
+    width: 50px;
+    top: -100px;
+    position: absolute;
+    top: -100px;
+    left: 90%;
+    transform: rotate(0deg);
+    animation-name: caida16;
+    animation-duration: 9.5s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 16;
+}
+
+@keyframes caida16 {
+    0% {
+        top: -100px;
+        left: 90%;
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        top: 99%;
+        left: 90%;
+        transform: rotate(180deg);
+    }
+}
+
+/* CARTEL DE FELIZ NAVIDAD*/
+.feliznavidad{
+    height: 100px;
+}
+.posicionfn{
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    z-index: 5;
+    animation-name: zoomfn;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+
+}
 
 
+@keyframes zoomfn {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*PAPA NOEL EN TRINEO*/
+.papanoel {
+    width: 400px;
+    position: absolute;
+    left: -500px;
+    bottom: 10%;
+    animation-name: papanoel;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 0;
+}
+
+@keyframes papanoel {
+    0% {
+        left: -500px;
+        bottom: 10%;
+    }
+
+    15% {
+        bottom: 10%;
+    }
 
 
+    30% {
+        bottom: 20%;
+    }
 
+    50% {
+        bottom: 60%;
+        left: 500px;
+    }
 
+    70% {
+        left: 590px;
+    }
 
+    100% {
+        left: 2500px;
+        bottom: 60%;
+    }
+}
 
 
 
