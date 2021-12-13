@@ -1,0 +1,70 @@
+body{
+    background-image: url(../images/fondo2.jpg);
+    background-repeat: repeat;
+    background-size: 1450px;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    border: 2px solid #f07bff;
+}
+
+div.fixed2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    border: 2px solid #f07bff;
+}
+
+h3{
+    font-size: 20px;
+    color: azure;
+}
+
+/*PAPA NOEL EN TRINEO*/
+.papanoel {
+    width: 400px;
+    position: absolute;
+    left: -500px;
+    bottom: 10%;
+    animation-name: papanoel;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 0;
+}
+
+@keyframes papanoel {
+    0% {
+        left: -500px;
+        bottom: 10%;
+    }
+
+    15% {
+        bottom: 10%;
+    }
+
+
+    30% {
+        bottom: 20%;
+    }
+
+    50% {
+        bottom: 60%;
+        left: 500px;
+    }
+
+    70% {
+        left: 590px;
+    }
+
+    100% {
+        left: 2500px;
+        bottom: 60%;
+    }
+}
