@@ -1,3 +1,4 @@
+/*FONDO*/
 body{
     background-image: url(../images/fondo.jpg);
     background-repeat: repeat;
@@ -42,7 +43,7 @@ h3{
     animation-iteration-count: 3s;
 }
 
-/* ANIMACION OLENTZERO */
+/* ANIMACION DE OLENTZERO */
 @keyframes olentzero_mov {
     0% {
         left: 1000px;
@@ -95,6 +96,7 @@ h3{
     z-index: 16;
 }
 
+/*ANIMACION DE COPOS DE NAVIDAD*/
 @keyframes caida {
     0% {
         top: -100px;
@@ -531,7 +533,7 @@ h3{
 
 }
 
-
+/*ANIMACION DE FELIZ NAVIDAD*/
 @keyframes zoomfn {
     0% {
         transform: scale(1, 1);
@@ -543,6 +545,5 @@ h3{
         transform: scale(1, 1);
     }
 }
-
 
 

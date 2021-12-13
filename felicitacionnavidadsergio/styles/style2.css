@@ -1,3 +1,4 @@
+/*FONDO*/
 body{
     background-image: url(../images/fondo2.jpg);
     background-repeat: repeat;
@@ -39,6 +40,7 @@ h3{
     z-index: 0;
 }
 
+/*ANIMACION DE PAPA NOEL*/
 @keyframes papanoel {
     0% {
         left: -500px;
@@ -68,3 +70,5 @@ h3{
         bottom: 60%;
     }
 }
+
+

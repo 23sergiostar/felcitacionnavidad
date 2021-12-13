@@ -1,3 +1,4 @@
+/*FONDO*/
 body{
     background-image: url(../images/fondo3.jpg);
     background-repeat: repeat;
@@ -17,6 +18,7 @@ h3{
     color: azure;
 }
 
+/*REYES MAGOS*/
 .reyesmagos{
     width: 200px;
 }
@@ -34,6 +36,7 @@ h3{
     animation-iteration-count: initial;
 }
 
+/*ANIMACION DE REYES MAGOS*/
 @keyframes reyesmagos {
     0% {
         left: -500px;
@@ -67,7 +70,7 @@ h3{
     }
 }
 
-
+/*ESTRELLA FUGAZ*/
 .estrellafugaz{
     width: 200px;
 }
@@ -86,7 +89,7 @@ h3{
     animation-iteration-count: 3s;
 }
 
-
+/*ANIMACION DE ESTRELLA FUGAZ*/
 @keyframes estrellafugaz {
     0% {
         left: -500px;
@@ -119,5 +122,3 @@ h3{
         left: 2500px;
     }
 }
-
-
