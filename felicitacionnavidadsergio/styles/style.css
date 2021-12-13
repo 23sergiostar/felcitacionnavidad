@@ -4,6 +4,14 @@ body{
     background-size: 1550px;
 }
 
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    border: 2px solid #f07bff;
+}
+
 div.fixed2 {
     position: fixed;
     bottom: 0;
