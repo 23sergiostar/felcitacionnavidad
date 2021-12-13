@@ -3,6 +3,7 @@ body{
     background-image: url(../images/fondo3.jpg);
     background-repeat: repeat;
     background-size: 1450px;
+    overflow:hidden;
 }
 
 div.fixed {

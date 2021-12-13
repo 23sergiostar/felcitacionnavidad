@@ -3,6 +3,7 @@ body{
     background-image: url(../images/fondo2.jpg);
     background-repeat: repeat;
     background-size: 1450px;
+    overflow:hidden;
 }
 
 div.fixed {
@@ -35,7 +36,7 @@ h3{
     animation-name: papanoel;
     animation-duration: 15s;
     animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     z-index: 0;
 }
